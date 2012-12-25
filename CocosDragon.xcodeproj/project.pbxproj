@@ -159,6 +159,14 @@
 		D01337E81688B17A001598DC /* CCBsequence.m in Sources */ = {isa = PBXBuildFile; fileRef = D01337E01688B17A001598DC /* CCBsequence.m */; };
 		D01337E91688B17A001598DC /* CCBSequenceProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = D01337E21688B17A001598DC /* CCBSequenceProperty.m */; };
 		D01337EA1688B17A001598DC /* CCNode+CCBRelativePositioning.m in Sources */ = {isa = PBXBuildFile; fileRef = D01337E41688B17A001598DC /* CCNode+CCBRelativePositioning.m */; };
+		D01337ED1689E349001598DC /* MainMenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = D01337EC1689E349001598DC /* MainMenuScene.m */; };
+		D01337F01689E668001598DC /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = D01337EF1689E668001598DC /* GameScene.m */; };
+		D01337F31689E94C001598DC /* GameObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D01337F21689E94C001598DC /* GameObject.m */; };
+		D01337F61689EA55001598DC /* Dragon.m in Sources */ = {isa = PBXBuildFile; fileRef = D01337F51689EA55001598DC /* Dragon.m */; };
+		D01337F91689EFBD001598DC /* Coin.m in Sources */ = {isa = PBXBuildFile; fileRef = D01337F81689EFBD001598DC /* Coin.m */; };
+		D01337FC1689F0F8001598DC /* Bomb.m in Sources */ = {isa = PBXBuildFile; fileRef = D01337FB1689F0F8001598DC /* Bomb.m */; };
+		D01337FF1689FD5A001598DC /* Explosion.m in Sources */ = {isa = PBXBuildFile; fileRef = D01337FE1689FD5A001598DC /* Explosion.m */; };
+		D01338021689FE22001598DC /* Level.m in Sources */ = {isa = PBXBuildFile; fileRef = D01338011689FE21001598DC /* Level.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -456,6 +464,22 @@
 		D01337E21688B17A001598DC /* CCBSequenceProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCBSequenceProperty.m; sourceTree = "<group>"; };
 		D01337E31688B17A001598DC /* CCNode+CCBRelativePositioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CCNode+CCBRelativePositioning.h"; sourceTree = "<group>"; };
 		D01337E41688B17A001598DC /* CCNode+CCBRelativePositioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CCNode+CCBRelativePositioning.m"; sourceTree = "<group>"; };
+		D01337EB1689E349001598DC /* MainMenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuScene.h; sourceTree = "<group>"; };
+		D01337EC1689E349001598DC /* MainMenuScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuScene.m; sourceTree = "<group>"; };
+		D01337EE1689E668001598DC /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		D01337EF1689E668001598DC /* GameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		D01337F11689E94C001598DC /* GameObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameObject.h; sourceTree = "<group>"; };
+		D01337F21689E94C001598DC /* GameObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameObject.m; sourceTree = "<group>"; };
+		D01337F41689EA55001598DC /* Dragon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dragon.h; sourceTree = "<group>"; };
+		D01337F51689EA55001598DC /* Dragon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dragon.m; sourceTree = "<group>"; };
+		D01337F71689EFBD001598DC /* Coin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coin.h; sourceTree = "<group>"; };
+		D01337F81689EFBD001598DC /* Coin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Coin.m; sourceTree = "<group>"; };
+		D01337FA1689F0F8001598DC /* Bomb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bomb.h; sourceTree = "<group>"; };
+		D01337FB1689F0F8001598DC /* Bomb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bomb.m; sourceTree = "<group>"; };
+		D01337FD1689FD5A001598DC /* Explosion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Explosion.h; sourceTree = "<group>"; };
+		D01337FE1689FD5A001598DC /* Explosion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Explosion.m; sourceTree = "<group>"; };
+		D01338001689FE21001598DC /* Level.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Level.h; sourceTree = "<group>"; };
+		D01338011689FE21001598DC /* Level.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Level.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -517,6 +541,20 @@
 				D01337D81688B17A001598DC /* CCBReader */,
 				D01337A216889274001598DC /* AppDelegate.h */,
 				D01337A316889274001598DC /* AppDelegate.m */,
+				D01337EE1689E668001598DC /* GameScene.h */,
+				D01337EF1689E668001598DC /* GameScene.m */,
+				D01337F11689E94C001598DC /* GameObject.h */,
+				D01337F21689E94C001598DC /* GameObject.m */,
+				D01337F41689EA55001598DC /* Dragon.h */,
+				D01337F51689EA55001598DC /* Dragon.m */,
+				D01338001689FE21001598DC /* Level.h */,
+				D01338011689FE21001598DC /* Level.m */,
+				D01337F71689EFBD001598DC /* Coin.h */,
+				D01337F81689EFBD001598DC /* Coin.m */,
+				D01337FA1689F0F8001598DC /* Bomb.h */,
+				D01337FB1689F0F8001598DC /* Bomb.m */,
+				D01337FD1689FD5A001598DC /* Explosion.h */,
+				D01337FE1689FD5A001598DC /* Explosion.m */,
 				D01337A516889274001598DC /* HelloWorldLayer.h */,
 				D01337A616889274001598DC /* HelloWorldLayer.m */,
 				D01337A816889274001598DC /* IntroLayer.h */,
@@ -524,6 +562,8 @@
 				D013362B16889271001598DC /* Resources */,
 				D013364516889271001598DC /* libs */,
 				D013379E16889274001598DC /* Supporting Files */,
+				D01337EB1689E349001598DC /* MainMenuScene.h */,
+				D01337EC1689E349001598DC /* MainMenuScene.m */,
 			);
 			path = CocosDragon;
 			sourceTree = "<group>";
@@ -1133,6 +1173,14 @@
 				D01337E81688B17A001598DC /* CCBsequence.m in Sources */,
 				D01337E91688B17A001598DC /* CCBSequenceProperty.m in Sources */,
 				D01337EA1688B17A001598DC /* CCNode+CCBRelativePositioning.m in Sources */,
+				D01337ED1689E349001598DC /* MainMenuScene.m in Sources */,
+				D01337F01689E668001598DC /* GameScene.m in Sources */,
+				D01337F31689E94C001598DC /* GameObject.m in Sources */,
+				D01337F61689EA55001598DC /* Dragon.m in Sources */,
+				D01337F91689EFBD001598DC /* Coin.m in Sources */,
+				D01337FC1689F0F8001598DC /* Bomb.m in Sources */,
+				D01337FF1689FD5A001598DC /* Explosion.m in Sources */,
+				D01338021689FE22001598DC /* Level.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
